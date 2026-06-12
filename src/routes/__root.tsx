@@ -8,7 +8,7 @@ export const Route = createRootRoute({
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { title: "Captain's Standard LLC — Mobile Boat Care & Detailing" },
       { name: 'description', content: "Professional mobile boat detailing serving East Tennessee. Maintained to a Captain's Standard." },
-      { name: 'theme-color', content: '#ffffff' },
+      { name: 'theme-color', content: '#0d2435' },
     ],
     links: [
       { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
