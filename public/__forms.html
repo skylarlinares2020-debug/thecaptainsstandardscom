@@ -1,16 +1,33 @@
 <!DOCTYPE html>
 <html>
   <body>
+    <!-- Static skeletons for Netlify Forms build-time detection. Keep field names in sync with src/routes/index.tsx -->
     <form name="quote-request" data-netlify="true" netlify-honeypot="bot-field" hidden>
       <input type="hidden" name="form-name" value="quote-request" />
-      <input name="name" />
-      <input name="phone" />
+      <input name="customer-name" />
       <input name="email" />
-      <input name="boatLength" />
-      <input name="boatType" />
-      <input name="marina" />
+      <input name="phone" />
+      <input name="boat-type" />
+      <input name="boat-length" />
       <input name="service" />
+      <input name="location" />
+      <input name="contact-method" />
       <textarea name="message"></textarea>
+      <input name="bot-field" />
+    </form>
+
+    <form name="schedule-now" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="schedule-now" />
+      <input name="service" />
+      <input name="requested-date" />
+      <input name="requested-time" />
+      <input name="customer-name" />
+      <input name="email" />
+      <input name="phone" />
+      <input name="boat-type" />
+      <input name="boat-length" />
+      <input name="service-location" />
+      <textarea name="notes"></textarea>
       <input name="bot-field" />
     </form>
   </body>
